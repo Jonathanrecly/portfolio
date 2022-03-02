@@ -12,5 +12,11 @@ use App\Http\Controllers;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::domain('todo.jrecly.local')->group(function () {
+    Route::get('/', Controllers\Todo\HomeController::class);
+});
+
 
 Route::get('/', Controllers\HomeController::class);
+
+
