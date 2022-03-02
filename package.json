@@ -10,13 +10,17 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "deepmerge": "^4.2.2",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
+        "sass": "~1.32",
+        "sass-loader": "^12.6.0",
         "vue-loader": "^15.9.7",
         "vue-template-compiler": "^2.6.14"
     },
     "dependencies": {
-        "vue": "^2.6.14"
+        "vue": "^2.6.14",
+        "vuetify": "^2.6.3"
     }
 }
