@@ -1,7 +1,7 @@
 module.exports = {
-    // resolve: {
-    //     alias: require('./resources/js/aliases.config').webpack,
-    // },
+    resolve: {
+        alias: require('./resources/js/aliases.config').webpack,
+    },
     module: {
         rules: [
             {
