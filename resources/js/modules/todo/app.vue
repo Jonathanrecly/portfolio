@@ -73,13 +73,47 @@
                                     Le projet utilise les technologies suivantes :
                                 </p>
                                 <ul>
-                                    <li><a href="https://v2.vuejs.org/">Vuejs V2</a></li>
-                                    <li><a href="https://vuetifyjs.com/en/">Vuetify</a></li>
-                                    <li><a href="https://v3.vuex.vuejs.org/">Vuex</a> </li>
+                                    <li><a href="https://v2.vuejs.org/" target="_blank">Vuejs (version 2)</a></li>
+                                    <li><a href="https://vuetifyjs.com/en/" target="_blank">Vuetify</a></li>
+                                    <li><a href="https://v3.vuex.vuejs.org/" target="_blank">Vuex</a> </li>
                                 </ul>
                                 <p>
-                                    le code source est disponible sur mon GitHub
+                                    Le code source est disponible sur mon <a href="https://github.com/Jonathanrecly/portfolio" target="_blank"> GitHub</a> dans le dossier resource/js
                                 </p>
+                                <p>
+                                    Eléments importants :
+                                </p>
+                                <ul>
+                                    <li>
+                                        Animation / Transition :
+                                        <ul>
+                                            <li>Transition spécifique VueJS appliqué aux lignes du tableau (transition group))</li>
+                                            <li>Animation pur CSS pour barrer les contenus</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        VueJS
+                                        <ul>
+                                            <li>Utilisation de composant Monofichier</li>
+                                            <li>Utilisation d'évènement personnalisé</li>
+                                            <li>Création d'un store local issue du store VueX</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        VueX
+                                        <ul>
+                                            <li>Store créer via module (namespaced)</li>
+                                            <li>Pour une persistence des données, il ne reste qu'à renseigner les API dans les "actions"</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Vuetify
+                                        <ul>
+                                            <li>Utilisation des v-slot (body, header, no-data)</li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
                             </v-card-text>
                         </v-card>
 
