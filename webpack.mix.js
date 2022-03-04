@@ -15,6 +15,7 @@ const config = require("./webpack.config")
 
 mix.js('resources/js/app.js', 'public/js')
     .js('resources/js/todo_app.js', 'public/js')
+    .js('resources/js/menu_circle_app.js', 'public/js')
     .vue()
     .postCss('resources/css/app.css', 'public/css', [
         //

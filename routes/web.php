@@ -16,6 +16,11 @@ Route::domain('todo.jrecly.local')->group(function () {
     Route::get('/', Controllers\Todo\HomeController::class);
 });
 
+Route::domain('menu_circle.jrecly.local')->group(function () {
+    Route::get('/', Controllers\MenuCircleHomeController::class);
+});
+
+
 
 Route::get('/', Controllers\HomeController::class);
 

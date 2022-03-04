@@ -78,7 +78,7 @@
                                     <li><a href="https://v3.vuex.vuejs.org/" target="_blank">Vuex</a> </li>
                                 </ul>
                                 <p>
-                                    Le code source est disponible sur mon <a href="https://github.com/Jonathanrecly/portfolio" target="_blank"> GitHub</a> dans le dossier resource/js
+                                    Le code source est disponible sur mon <a href="https://github.com/Jonathanrecly/portfolio" target="_blank"> GitHub</a> dans le dossier resource/js/module/todo
                                 </p>
                                 <p>
                                     Eléments importants :
