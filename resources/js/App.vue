@@ -45,14 +45,26 @@
                     id: 1,
                     name: "Todo list",
                     description: "",
-                    target: ""
+                    target: "todo"
+                }, {
+                    id: 2,
+                    name: "Menu Circle",
+                    description: "",
+                    target: "menu_circle"
                 }
             ]
         }),
         methods: {
             goTo(project) {
+                window.open(
+                    window.location.protocol + "//" + project.target + "." + window.location.host,
+                    "_blank"
+                )
                 console.log(project)
             }
+        },
+        mounted() {
+            console.log(window.location)
         }
     }
 </script>
