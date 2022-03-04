@@ -60,7 +60,6 @@
                     window.location.protocol + "//" + project.target + "." + window.location.host,
                     "_blank"
                 )
-                console.log(project)
             }
         },
     }
