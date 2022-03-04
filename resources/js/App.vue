@@ -63,9 +63,6 @@
                 console.log(project)
             }
         },
-        mounted() {
-            console.log(window.location)
-        }
     }
 </script>
 
